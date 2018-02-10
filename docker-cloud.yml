@@ -1,4 +1,4 @@
 helloworld:
-  image: dockercloud/hello-world
+  image: dockercloud/jenkins-ci-cd
   ports:
     - "80:80"

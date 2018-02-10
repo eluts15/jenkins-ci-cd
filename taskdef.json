@@ -1,9 +1,9 @@
 {
-    "family": "hello-world",
+    "family": "jenkins-ci-cd",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "name": "jenkins-ci-cd",
             "cpu": 10,
             "memory": 256,
             "essential": true,
